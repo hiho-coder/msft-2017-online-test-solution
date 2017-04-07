@@ -74,17 +74,17 @@ For every node from 1 to N output its parent. Output 0 for the root's parent.
 
 Sample Input
 -----
-8 3 5
-1 3 4
-1
-2 3 4
-5 6 7 8
-3 5 6 7 8
-0 3 3 3 3
-3 0 2 4 4
-3 2 0 4 4
-3 4 4 0 2
-3 4 4 2 0
+8 3 5  
+1 3 4  
+1  
+2 3 4  
+5 6 7 8  
+3 5 6 7 8  
+0 3 3 3 3  
+3 0 2 4 4  
+3 2 0 4 4  
+3 4 4 0 2  
+3 4 4 2 0  
 
 Sample Output
 -----
@@ -137,16 +137,16 @@ If Little Hi can kill all the monsters and stay alive output the maximum remaini
 
 Sample Input
 ----
-4 5
-..S..
-M...M
-..D..
-.M...
-20 5
-20 5
-20 5
-20 5
-60 10
+4 5  
+..S..  
+M...M  
+..D..  
+.M...  
+20 5  
+20 5  
+20 5  
+20 5  
+60 10  
 
 Sample Output
 ----
@@ -154,23 +154,23 @@ Sample Output
 
 Sample Explaination
 -----
-Let's assume the upper left cell is (1, 1).
-Round 1: remove slate (2, 3), buff remains 4 rounds
-Round 2: remove slate (2, 2), buff remains 3 rounds
-Round 3: remove slate (2, 1), buff remains 2 rounds
-Round 4: attack monster (2, 1), take no damage, buff remains 1 round
-Round 5: attack monster (2, 1), take no damage, monster killed, buff vanishes
-Round 6: remove slate (2, 4)
-Round 7: remove slate (4, 3)
-Round 8: remove slate (1, 3)
-Round 9: attack monster (1, 3), take 5 damage, HP=55
-Round 10: attack monster (1, 3), take 5 damage, HP=50, monster killed, buff remains 5 rounds
-Round 11: remove slate (2, 5), buff remains 4 rounds
-Round 12: attack monster (2, 5) take no damage, buff remains 3 rounds
-Round 13: attack monster (2, 5) take no damage, buff remains 2 rounds
-Round 14: remove slate (4, 2), buff remains 1 round
-Round 15: attack monster (4, 2), take no damage, buff vanishes
-Round 16: attack monster (4, 2), take 5 damage, HP=45, monster killed
+Let's assume the upper left cell is (1, 1).  
+Round 1: remove slate (2, 3), buff remains 4 rounds  
+Round 2: remove slate (2, 2), buff remains 3 rounds  
+Round 3: remove slate (2, 1), buff remains 2 rounds  
+Round 4: attack monster (2, 1), take no damage, buff remains 1 round  
+Round 5: attack monster (2, 1), take no damage, monster killed, buff vanishes  
+Round 6: remove slate (2, 4)  
+Round 7: remove slate (4, 3)  
+Round 8: remove slate (1, 3)  
+Round 9: attack monster (1, 3), take 5 damage, HP=55  
+Round 10: attack monster (1, 3), take 5 damage, HP=50, monster killed, buff remains 5 rounds  
+Round 11: remove slate (2, 5), buff remains 4 rounds  
+Round 12: attack monster (2, 5) take no damage, buff remains 3 rounds  
+Round 13: attack monster (2, 5) take no damage, buff remains 2 rounds  
+Round 14: remove slate (4, 2), buff remains 1 round  
+Round 15: attack monster (4, 2), take no damage, buff vanishes  
+Round 16: attack monster (4, 2), take 5 damage, HP=45, monster killed  
 
 
 
@@ -190,9 +190,9 @@ Input
 ----
 One line contains the sequence S.
 
-For 30% of the data, 1<=|S|<=10
-For 60% of the data, 1<=|S|<=200
-For 100% of the data, 1<=|S|<=1000
+For 30% of the data, 1<=|S|<=10  
+For 60% of the data, 1<=|S|<=200  
+For 100% of the data, 1<=|S|<=1000   
 
 Output
 ----
