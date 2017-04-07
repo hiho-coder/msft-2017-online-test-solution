@@ -1,4 +1,4 @@
-###微软2017年预科生计划在线编程笔试题目题解
+### 微软2017年预科生计划在线编程笔试题目题解
 
 Legendary Items
 =====
@@ -60,11 +60,11 @@ Can you restore the tree's edges with these information? Note if node u is on th
 
 Input
 ----
-The first line contains three integers N, M and K. N is the number of nodes. M is the depth of the tree. K is the number of leaves.
-The second line contains M integers A1, A2, ... AM. Ai represents the number of nodes of depth i.
-Then M lines follow. The ith of the M lines contains Ai numbers which are the nodes of depth i from left to right.
-The (M+3)-th line contains K numbers L1, L2, ... LK, indicating the leaves.
-Then a K x K matrix D follows. Dij represents the distance between Li and Lj.
+The first line contains three integers N, M and K. N is the number of nodes. M is the depth of the tree. K is the number of leaves.  
+The second line contains M integers A1, A2, ... AM. Ai represents the number of nodes of depth i.  
+Then M lines follow. The ith of the M lines contains Ai numbers which are the nodes of depth i from left to right.  
+The (M+3)-th line contains K numbers L1, L2, ... LK, indicating the leaves.  
+Then a K x K matrix D follows. Dij represents the distance between Li and Lj.  
 
 1 <= N <= 100
 
